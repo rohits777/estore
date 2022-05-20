@@ -1,0 +1,53 @@
+.header{
+    background: #282c34;
+    box-shadow: 0px 5px 10px lightslategray;
+    position: center;
+    
+  }
+  .header_logo{
+    padding: 20px 30px;
+  font-family: "Pacifico", cursive;
+  font-size: xx-large;
+  color: rgb(185, 243, 131);
+  align-self: center;
+}
+  .header_right{
+    text-align: right;
+   padding: 20px 0 0;
+  }
+  
+  .auth{
+    
+    text-decoration: none;
+    margin-right: 25px;
+    a{
+      color:white;
+      &:hover{
+        color: white;
+      }
+    }
+    }
+  
+  
+  a::after{
+    
+   // content: " ";
+    right: 8px;
+  }
+  
+  .a:last-child::after{
+    display: none;
+  }
+  
+  .widget{
+  align-self: flex-end;
+  }
+  li{
+    list-style: none;
+   
+    color: white;
+    margin-right: 20px;
+  }
+  .search{
+    align-self:center;
+  }
